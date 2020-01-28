@@ -1,0 +1,16 @@
+{
+  "description": "x",
+  "repository": "x",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "../node_modules/.bin/nodemon main.js",
+    "prod": "node main.js",
+    "prodx": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,647 @@
+2020-01-22T21:26:37.448966893 0.007027s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2020-01-22T21:26:37.452561407 0.010623s notice: Initializing directory /data/rethinkdb_data
+2020-01-22T21:26:37.452784795 0.010844s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2020-01-22T21:26:37.452915813 0.010975s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:26:37.455461512 0.013583s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:26:37.455722976 0.013783s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:26:37.485487804 0.043550s info: Automatically using cache size of 287 MB
+2020-01-22T21:26:37.487000904 0.045060s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:26:37.487868472 0.045928s notice: Listening for client driver connections on port 28015
+2020-01-22T21:26:37.487930371 0.045990s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:26:37.487967674 0.046027s notice: Listening on cluster addresses: 127.0.0.1, 192.168.16.2
+2020-01-22T21:26:37.487975306 0.046035s notice: Listening on driver addresses: 127.0.0.1, 192.168.16.2
+2020-01-22T21:26:37.487980035 0.046039s notice: Listening on http addresses: 127.0.0.1, 192.168.16.2
+2020-01-22T21:26:37.487984426 0.046044s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:27:01.853800966 24.433509s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:27:01.853897838 24.433606s notice: Shutting down client connections...
+2020-01-22T21:27:01.853942757 24.433650s notice: All client connections closed.
+2020-01-22T21:27:01.853944956 24.433653s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:27:01.854194138 24.433902s notice: Storage engine shut down.
+2020-01-22T21:27:06.077904222 0.010414s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:27:06.080235435 0.012743s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:27:06.080458810 0.012965s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:27:06.095101971 0.027608s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:27:06.102601885 0.035111s info: Automatically using cache size of 283 MB
+2020-01-22T21:27:06.103853972 0.036360s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:27:06.104485408 0.036992s notice: Listening for client driver connections on port 28015
+2020-01-22T21:27:06.104659385 0.037165s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:27:06.104663126 0.037169s notice: Listening on cluster addresses: 127.0.0.1, 192.168.32.2
+2020-01-22T21:27:06.104666334 0.037172s notice: Listening on driver addresses: 127.0.0.1, 192.168.32.2
+2020-01-22T21:27:06.104670095 0.037176s notice: Listening on http addresses: 127.0.0.1, 192.168.32.2
+2020-01-22T21:27:06.104673538 0.037180s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:27:14.461520331 8.415622s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:27:14.461582114 8.415683s notice: Shutting down client connections...
+2020-01-22T21:27:14.461678095 8.415779s notice: All client connections closed.
+2020-01-22T21:27:14.461680225 8.415781s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:27:14.461915133 8.416016s notice: Storage engine shut down.
+2020-01-22T21:28:35.784319503 0.009677s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:28:35.787231298 0.012588s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:28:35.787913428 0.013269s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:28:35.803505225 0.028860s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:28:35.812765741 0.038124s info: Automatically using cache size of 284 MB
+2020-01-22T21:28:35.813853166 0.039208s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:28:35.814489514 0.039845s notice: Listening for client driver connections on port 28015
+2020-01-22T21:28:35.814550769 0.039906s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:28:35.814554427 0.039909s notice: Listening on cluster addresses: 127.0.0.1, 192.168.48.2
+2020-01-22T21:28:35.814557637 0.039913s notice: Listening on driver addresses: 127.0.0.1, 192.168.48.2
+2020-01-22T21:28:35.814561091 0.039916s notice: Listening on http addresses: 127.0.0.1, 192.168.48.2
+2020-01-22T21:28:35.814564476 0.039919s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:29:56.076858457 0.010482s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:29:56.079294811 0.012918s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:29:56.079525654 0.013147s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:29:56.091836906 0.025459s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:29:56.097025496 0.030649s info: Automatically using cache size of 284 MB
+2020-01-22T21:29:56.099409679 0.033031s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:29:56.099963111 0.033585s notice: Listening for client driver connections on port 28015
+2020-01-22T21:29:56.100027770 0.033649s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:29:56.100031433 0.033653s notice: Listening on cluster addresses: 127.0.0.1, 192.168.80.2
+2020-01-22T21:29:56.100034732 0.033656s notice: Listening on driver addresses: 127.0.0.1, 192.168.80.2
+2020-01-22T21:29:56.100038011 0.033659s notice: Listening on http addresses: 127.0.0.1, 192.168.80.2
+2020-01-22T21:29:56.100041454 0.033663s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:30:04.515199395 8.448821s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:30:04.515283737 8.448905s notice: Shutting down client connections...
+2020-01-22T21:30:04.515304367 8.448926s notice: All client connections closed.
+2020-01-22T21:30:04.515306308 8.448928s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:30:04.515436675 8.449058s notice: Storage engine shut down.
+2020-01-22T21:57:45.428066006 0.008583s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:57:45.430283142 0.010803s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:57:45.430478724 0.010993s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:57:45.444235480 0.024750s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:57:45.450225563 0.030743s info: Automatically using cache size of 285 MB
+2020-01-22T21:57:45.453418142 0.033933s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:57:45.454240516 0.034755s notice: Listening for client driver connections on port 28015
+2020-01-22T21:57:45.454380538 0.034895s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:57:45.454386682 0.034901s notice: Listening on cluster addresses: 127.0.0.1, 192.168.96.2
+2020-01-22T21:57:45.454392113 0.034913s notice: Listening on driver addresses: 127.0.0.1, 192.168.96.2
+2020-01-22T21:57:45.454409193 0.034924s notice: Listening on http addresses: 127.0.0.1, 192.168.96.2
+2020-01-22T21:57:45.454412888 0.034927s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:57:53.652786380 8.233301s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:57:53.652881676 8.233396s notice: Shutting down client connections...
+2020-01-22T21:57:53.652940551 8.233455s notice: All client connections closed.
+2020-01-22T21:57:53.652942664 8.233457s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:57:53.653163372 8.233678s notice: Storage engine shut down.
+2020-01-22T21:58:14.861107596 0.011886s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:58:14.865615052 0.016403s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:58:14.865926005 0.016702s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:58:14.877872894 0.028649s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:58:14.883898718 0.034676s info: Automatically using cache size of 283 MB
+2020-01-22T21:58:14.884925900 0.035702s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:58:14.885589592 0.036365s notice: Listening for client driver connections on port 28015
+2020-01-22T21:58:14.885722503 0.036498s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:58:14.885726329 0.036502s notice: Listening on cluster addresses: 127.0.0.1, 192.168.112.2
+2020-01-22T21:58:14.885730061 0.036506s notice: Listening on driver addresses: 127.0.0.1, 192.168.112.2
+2020-01-22T21:58:14.885733374 0.036509s notice: Listening on http addresses: 127.0.0.1, 192.168.112.2
+2020-01-22T21:58:14.885737011 0.036513s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:58:59.318439015 44.490888s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:58:59.318530588 44.490962s notice: Shutting down client connections...
+2020-01-22T21:58:59.318547734 44.490979s notice: All client connections closed.
+2020-01-22T21:58:59.318549707 44.490981s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:58:59.318774666 44.491206s notice: Storage engine shut down.
+2020-01-22T21:59:13.189610338 0.009997s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:59:13.192789054 0.013175s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:59:13.193026754 0.013412s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:59:13.205581897 0.025967s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:59:13.212842201 0.033229s info: Automatically using cache size of 282 MB
+2020-01-22T21:59:13.214064158 0.034449s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:59:13.214984307 0.035369s notice: Listening for client driver connections on port 28015
+2020-01-22T21:59:13.215068488 0.035453s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:59:13.215072786 0.035457s notice: Listening on cluster addresses: 127.0.0.1, 192.168.128.2
+2020-01-22T21:59:13.215077200 0.035462s notice: Listening on driver addresses: 127.0.0.1, 192.168.128.2
+2020-01-22T21:59:13.215081872 0.035467s notice: Listening on http addresses: 127.0.0.1, 192.168.128.2
+2020-01-22T21:59:13.215131762 0.035516s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:59:17.004155732 3.824541s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:59:17.004256613 3.824641s notice: Shutting down client connections...
+2020-01-22T21:59:17.004275894 3.824660s notice: All client connections closed.
+2020-01-22T21:59:17.004277837 3.824662s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:59:17.004491996 3.824877s notice: Storage engine shut down.
+2020-01-22T21:59:46.170876727 0.009101s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:59:46.173097206 0.011321s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:59:46.173283609 0.011506s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:59:46.185028834 0.023251s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:59:46.192230869 0.030455s info: Automatically using cache size of 282 MB
+2020-01-22T21:59:46.193169003 0.031391s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:59:46.195598880 0.033821s notice: Listening for client driver connections on port 28015
+2020-01-22T21:59:46.195853805 0.034076s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:59:46.195857971 0.034080s notice: Listening on cluster addresses: 127.0.0.1, 192.168.144.2
+2020-01-22T21:59:46.195861329 0.034083s notice: Listening on driver addresses: 127.0.0.1, 192.168.144.2
+2020-01-22T21:59:46.195865338 0.034087s notice: Listening on http addresses: 127.0.0.1, 192.168.144.2
+2020-01-22T21:59:46.195868947 0.034091s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T21:59:52.215997476 6.054219s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T21:59:52.216132610 6.054355s notice: Shutting down client connections...
+2020-01-22T21:59:52.216168275 6.054390s notice: All client connections closed.
+2020-01-22T21:59:52.216176167 6.054398s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T21:59:52.216398753 6.054621s notice: Storage engine shut down.
+2020-01-22T21:59:55.035484047 0.009025s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T21:59:55.038532054 0.012072s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T21:59:55.038726688 0.012265s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T21:59:55.047659174 0.021204s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T21:59:55.053190158 0.026731s info: Automatically using cache size of 280 MB
+2020-01-22T21:59:55.053967636 0.027506s notice: Listening for intracluster connections on port 29015
+2020-01-22T21:59:55.055100063 0.028639s notice: Listening for client driver connections on port 28015
+2020-01-22T21:59:55.055617009 0.029156s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T21:59:55.055623995 0.029163s notice: Listening on cluster addresses: 127.0.0.1, 192.168.160.2
+2020-01-22T21:59:55.055627351 0.029166s notice: Listening on driver addresses: 127.0.0.1, 192.168.160.2
+2020-01-22T21:59:55.055631246 0.029170s notice: Listening on http addresses: 127.0.0.1, 192.168.160.2
+2020-01-22T21:59:55.055634705 0.029173s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:00:03.215292102 8.188831s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:00:03.215407335 8.188946s notice: Shutting down client connections...
+2020-01-22T22:00:03.215427671 8.188966s notice: All client connections closed.
+2020-01-22T22:00:03.215429564 8.188968s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:00:03.215556325 8.189095s notice: Storage engine shut down.
+2020-01-22T22:01:30.455737963 0.010987s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:01:30.458102919 0.013351s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:01:30.458318219 0.013565s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:01:30.470565707 0.025813s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:01:30.476947670 0.032196s info: Automatically using cache size of 281 MB
+2020-01-22T22:01:30.478082766 0.033330s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:01:30.479485734 0.034733s notice: Listening for client driver connections on port 28015
+2020-01-22T22:01:30.479630169 0.034877s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:01:30.479633837 0.034880s notice: Listening on cluster addresses: 127.0.0.1, 192.168.176.2
+2020-01-22T22:01:30.479637194 0.034884s notice: Listening on driver addresses: 127.0.0.1, 192.168.176.2
+2020-01-22T22:01:30.479641041 0.034888s notice: Listening on http addresses: 127.0.0.1, 192.168.176.2
+2020-01-22T22:01:30.479644434 0.034891s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:01:36.262526609 5.817774s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:01:36.262653224 5.817900s notice: Shutting down client connections...
+2020-01-22T22:01:36.262736257 5.817983s notice: All client connections closed.
+2020-01-22T22:01:36.262738306 5.817985s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:01:36.262943705 5.818190s notice: Storage engine shut down.
+2020-01-22T22:02:54.243847413 0.010223s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:02:54.246600922 0.012976s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:02:54.246860388 0.013234s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:02:54.259353676 0.025727s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:02:54.265610460 0.031985s info: Automatically using cache size of 281 MB
+2020-01-22T22:02:54.266102781 0.032476s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:02:54.267627086 0.034001s notice: Listening for client driver connections on port 28015
+2020-01-22T22:02:54.267928136 0.034302s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:02:54.267937065 0.034311s notice: Listening on cluster addresses: 127.0.0.1, 192.168.192.2
+2020-01-22T22:02:54.267941030 0.034314s notice: Listening on driver addresses: 127.0.0.1, 192.168.192.2
+2020-01-22T22:02:54.267944461 0.034318s notice: Listening on http addresses: 127.0.0.1, 192.168.192.2
+2020-01-22T22:02:54.268017326 0.034391s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:03:02.477311108 8.243685s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:03:02.477404605 8.243778s notice: Shutting down client connections...
+2020-01-22T22:03:02.477422006 8.243795s notice: All client connections closed.
+2020-01-22T22:03:02.477423910 8.243797s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:03:02.477555257 8.243929s notice: Storage engine shut down.
+2020-01-22T22:03:28.225408512 0.011104s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:03:28.228127003 0.013822s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:03:28.228423437 0.014117s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:03:28.236171273 0.021864s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:03:28.245169020 0.030863s info: Automatically using cache size of 280 MB
+2020-01-22T22:03:28.246596824 0.032290s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:03:28.247426128 0.033119s notice: Listening for client driver connections on port 28015
+2020-01-22T22:03:28.247515204 0.033208s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:03:28.247518774 0.033212s notice: Listening on cluster addresses: 127.0.0.1, 192.168.208.2
+2020-01-22T22:03:28.247522136 0.033215s notice: Listening on driver addresses: 127.0.0.1, 192.168.208.2
+2020-01-22T22:03:28.247525875 0.033219s notice: Listening on http addresses: 127.0.0.1, 192.168.208.2
+2020-01-22T22:03:28.247531391 0.033224s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:03:31.915396983 3.701090s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:03:31.915510357 3.701203s notice: Shutting down client connections...
+2020-01-22T22:03:31.915621072 3.701314s notice: All client connections closed.
+2020-01-22T22:03:31.915623130 3.701316s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:03:31.915853602 3.701547s notice: Storage engine shut down.
+2020-01-22T22:16:35.050056012 0.009470s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:16:35.053668984 0.013085s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:16:35.053956967 0.013367s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:16:35.066986100 0.026396s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:16:35.074164484 0.033601s info: Automatically using cache size of 282 MB
+2020-01-22T22:16:35.076311463 0.035721s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:16:35.077144480 0.036554s notice: Listening for client driver connections on port 28015
+2020-01-22T22:16:35.077266132 0.036676s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:16:35.077275791 0.036686s notice: Listening on cluster addresses: 127.0.0.1, 192.168.224.2
+2020-01-22T22:16:35.077283728 0.036694s notice: Listening on driver addresses: 127.0.0.1, 192.168.224.2
+2020-01-22T22:16:35.077289070 0.036699s notice: Listening on http addresses: 127.0.0.1, 192.168.224.2
+2020-01-22T22:16:35.077292483 0.036702s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:16:43.740031211 8.721035s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:16:43.740118436 8.721122s notice: Shutting down client connections...
+2020-01-22T22:16:43.740218142 8.721222s notice: All client connections closed.
+2020-01-22T22:16:43.740220279 8.721224s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:16:43.740468543 8.721472s notice: Storage engine shut down.
+2020-01-22T22:17:22.419319785 0.011489s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:17:22.422188607 0.014357s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:17:22.422455002 0.014622s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:17:22.436029186 0.028196s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:17:22.443629394 0.035799s info: Automatically using cache size of 281 MB
+2020-01-22T22:17:22.445344891 0.037511s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:17:22.446193188 0.038360s notice: Listening for client driver connections on port 28015
+2020-01-22T22:17:22.446257045 0.038424s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:17:22.446260635 0.038427s notice: Listening on cluster addresses: 127.0.0.1, 192.168.240.2
+2020-01-22T22:17:22.446264245 0.038431s notice: Listening on driver addresses: 127.0.0.1, 192.168.240.2
+2020-01-22T22:17:22.446267847 0.038434s notice: Listening on http addresses: 127.0.0.1, 192.168.240.2
+2020-01-22T22:17:22.446271289 0.038438s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:17:56.068337130 0.008554s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:17:56.072316080 0.012532s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:17:56.072589119 0.012804s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:17:56.085393781 0.025609s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:17:56.092648263 0.032866s info: Automatically using cache size of 280 MB
+2020-01-22T22:17:56.094851081 0.035066s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:17:56.095478568 0.035694s notice: Listening for client driver connections on port 28015
+2020-01-22T22:17:56.095541131 0.035756s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:17:56.095544819 0.035760s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-01-22T22:17:56.095548168 0.035763s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-01-22T22:17:56.095616734 0.035832s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-01-22T22:17:56.095683356 0.035899s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:18:32.821710951 0.009040s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:18:32.826377324 0.013706s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:18:32.826643676 0.013971s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:18:32.839778755 0.027106s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:18:32.845255101 0.032583s info: Automatically using cache size of 279 MB
+2020-01-22T22:18:32.846093540 0.033421s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:18:32.847410867 0.034738s notice: Listening for client driver connections on port 28015
+2020-01-22T22:18:32.847553518 0.034881s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:18:32.847557423 0.034885s notice: Listening on cluster addresses: 127.0.0.1, 172.19.0.2
+2020-01-22T22:18:32.847560771 0.034888s notice: Listening on driver addresses: 127.0.0.1, 172.19.0.2
+2020-01-22T22:18:32.847564007 0.034891s notice: Listening on http addresses: 127.0.0.1, 172.19.0.2
+2020-01-22T22:18:32.847627786 0.034955s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-22T22:20:41.678529518 128.974105s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-22T22:20:41.678623627 128.974199s notice: Shutting down client connections...
+2020-01-22T22:20:41.678674983 128.974250s notice: All client connections closed.
+2020-01-22T22:20:41.678677152 128.974252s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-22T22:20:41.678830181 128.974405s notice: Storage engine shut down.
+2020-01-22T22:22:04.663839964 0.008876s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-22T22:22:04.667334664 0.012370s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-22T22:22:04.667667908 0.012702s notice: Loading data from directory /data/rethinkdb_data
+2020-01-22T22:22:04.680622660 0.025657s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-22T22:22:04.687126917 0.032163s info: Automatically using cache size of 278 MB
+2020-01-22T22:22:04.688850931 0.033885s notice: Listening for intracluster connections on port 29015
+2020-01-22T22:22:04.690055429 0.035090s notice: Listening for client driver connections on port 28015
+2020-01-22T22:22:04.690123358 0.035157s notice: Listening for administrative HTTP connections on port 8080
+2020-01-22T22:22:04.690127051 0.035161s notice: Listening on cluster addresses: 127.0.0.1, 172.20.0.2
+2020-01-22T22:22:04.690131096 0.035165s notice: Listening on driver addresses: 127.0.0.1, 172.20.0.2
+2020-01-22T22:22:04.690134312 0.035168s notice: Listening on http addresses: 127.0.0.1, 172.20.0.2
+2020-01-22T22:22:04.690138396 0.035172s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T01:57:01.981107311 8467.294277s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T01:57:01.981220301 8467.294390s notice: Shutting down client connections...
+2020-01-23T01:57:01.981294795 8467.294464s notice: All client connections closed.
+2020-01-23T01:57:01.981297653 8467.294467s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T01:57:01.981549315 8467.294719s notice: Storage engine shut down.
+2020-01-23T01:57:32.095963555 0.013236s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T01:57:32.098588402 0.015859s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T01:57:32.098743373 0.016013s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T01:57:32.111443565 0.028713s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T01:57:32.120170299 0.037442s info: Automatically using cache size of 277 MB
+2020-01-23T01:57:32.121357573 0.038627s notice: Listening for intracluster connections on port 29015
+2020-01-23T01:57:32.124023469 0.041294s notice: Listening for client driver connections on port 28015
+2020-01-23T01:57:32.124111523 0.041381s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T01:57:32.124116510 0.041386s notice: Listening on cluster addresses: 127.0.0.1, 172.21.0.2
+2020-01-23T01:57:32.124120600 0.041390s notice: Listening on driver addresses: 127.0.0.1, 172.21.0.2
+2020-01-23T01:57:32.124125506 0.041395s notice: Listening on http addresses: 127.0.0.1, 172.21.0.2
+2020-01-23T01:57:32.124130000 0.041399s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T01:57:59.324972833 0.011214s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T01:57:59.327751003 0.013991s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T01:57:59.328044266 0.014283s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T01:57:59.336599019 0.022838s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T01:57:59.344444309 0.030685s info: Automatically using cache size of 276 MB
+2020-01-23T01:57:59.346309776 0.032548s notice: Listening for intracluster connections on port 29015
+2020-01-23T01:57:59.348290300 0.034529s notice: Listening for client driver connections on port 28015
+2020-01-23T01:57:59.348377736 0.034616s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T01:57:59.348383337 0.034622s notice: Listening on cluster addresses: 127.0.0.1, 172.22.0.2
+2020-01-23T01:57:59.348386764 0.034625s notice: Listening on driver addresses: 127.0.0.1, 172.22.0.2
+2020-01-23T01:57:59.348390636 0.034629s notice: Listening on http addresses: 127.0.0.1, 172.22.0.2
+2020-01-23T01:57:59.348395000 0.034633s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T01:58:03.222038768 3.908277s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T01:58:03.222149946 3.908388s notice: Shutting down client connections...
+2020-01-23T01:58:03.222215592 3.908454s notice: All client connections closed.
+2020-01-23T01:58:03.222217673 3.908456s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T01:58:03.222471838 3.908710s notice: Storage engine shut down.
+2020-01-23T02:08:42.545766415 0.008927s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:08:42.548139415 0.011299s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:08:42.548333786 0.011493s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:08:42.561098875 0.024258s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:08:42.567917977 0.031078s info: Automatically using cache size of 209 MB
+2020-01-23T02:08:42.568639425 0.031798s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:08:42.569410387 0.032569s notice: Listening for client driver connections on port 28015
+2020-01-23T02:08:42.569541494 0.032700s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:08:42.569545495 0.032704s notice: Listening on cluster addresses: 127.0.0.1, 172.29.0.2
+2020-01-23T02:08:42.569549668 0.032708s notice: Listening on driver addresses: 127.0.0.1, 172.29.0.2
+2020-01-23T02:08:42.569553644 0.032712s notice: Listening on http addresses: 127.0.0.1, 172.29.0.2
+2020-01-23T02:08:42.569557106 0.032716s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:13:08.792935493 0.007165s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:13:08.795469849 0.009699s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:13:08.795852593 0.010080s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:13:08.808213853 0.022442s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:13:08.815214451 0.029444s info: Automatically using cache size of 210 MB
+2020-01-23T02:13:08.817333161 0.031561s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:13:08.818394714 0.032622s notice: Listening for client driver connections on port 28015
+2020-01-23T02:13:08.818498651 0.032726s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:13:08.818504154 0.032731s notice: Listening on cluster addresses: 127.0.0.1, 172.30.0.2
+2020-01-23T02:13:08.818509010 0.032736s notice: Listening on driver addresses: 127.0.0.1, 172.30.0.2
+2020-01-23T02:13:08.818514151 0.032741s notice: Listening on http addresses: 127.0.0.1, 172.30.0.2
+2020-01-23T02:13:08.818518720 0.032746s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:13:12.805084798 4.019312s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:13:12.805185274 4.019413s notice: Shutting down client connections...
+2020-01-23T02:13:12.805268799 4.019496s notice: All client connections closed.
+2020-01-23T02:13:12.805270846 4.019498s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:13:12.805504980 4.019732s notice: Storage engine shut down.
+2020-01-23T02:13:20.584526715 0.011424s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:13:20.587687951 0.014584s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:13:20.587935740 0.014830s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:13:20.599744798 0.026640s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:13:20.608090056 0.034987s info: Automatically using cache size of 209 MB
+2020-01-23T02:13:20.609431567 0.036326s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:13:20.610869079 0.037764s notice: Listening for client driver connections on port 28015
+2020-01-23T02:13:20.610937433 0.037832s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:13:20.610978022 0.037873s notice: Listening on cluster addresses: 127.0.0.1, 172.31.0.2
+2020-01-23T02:13:20.610986610 0.037881s notice: Listening on driver addresses: 127.0.0.1, 172.31.0.2
+2020-01-23T02:13:20.610996945 0.037892s notice: Listening on http addresses: 127.0.0.1, 172.31.0.2
+2020-01-23T02:13:20.611003813 0.037898s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:14:19.348778557 58.818929s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:14:19.348849727 58.819000s notice: Shutting down client connections...
+2020-01-23T02:14:19.348934871 58.819085s notice: All client connections closed.
+2020-01-23T02:14:19.348938350 58.819089s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:14:19.349161727 58.819312s notice: Storage engine shut down.
+2020-01-23T02:14:31.077083279 0.010770s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:14:31.080701478 0.014387s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:14:31.081762688 0.015446s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:14:31.092757260 0.026441s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:14:31.100149808 0.033836s info: Automatically using cache size of 202 MB
+2020-01-23T02:14:31.101267901 0.034952s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:14:31.102102372 0.035786s notice: Listening for client driver connections on port 28015
+2020-01-23T02:14:31.102181397 0.035865s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:14:31.102185089 0.035869s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:14:31.102188315 0.035872s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:14:31.102191955 0.035875s notice: Listening on http addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:14:31.102195938 0.035879s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:14:58.810422610 27.765724s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:14:58.810506814 27.765808s notice: Shutting down client connections...
+2020-01-23T02:14:58.810531958 27.765833s notice: All client connections closed.
+2020-01-23T02:14:58.810534369 27.765835s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:14:58.810761451 27.766062s notice: Storage engine shut down.
+2020-01-23T02:15:04.317745747 0.010278s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:15:04.320286443 0.012818s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:15:04.320639540 0.013170s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:15:04.334608813 0.027139s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:15:04.342125947 0.034659s info: Automatically using cache size of 203 MB
+2020-01-23T02:15:04.343674724 0.036205s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:15:04.345001252 0.037532s notice: Listening for client driver connections on port 28015
+2020-01-23T02:15:04.345109254 0.037639s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:15:04.345112758 0.037643s notice: Listening on cluster addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:15:04.345122939 0.037653s notice: Listening on driver addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:15:04.345154447 0.037685s notice: Listening on http addresses: 127.0.0.1, 192.168.0.2
+2020-01-23T02:15:04.345158640 0.037689s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:15:08.188427728 3.880958s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:15:08.188534423 3.881065s notice: Shutting down client connections...
+2020-01-23T02:15:08.188660990 3.881191s notice: All client connections closed.
+2020-01-23T02:15:08.188663025 3.881193s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:15:08.188928188 3.881458s notice: Storage engine shut down.
+2020-01-23T02:15:21.507416392 0.011094s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:15:21.510338899 0.014015s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:15:21.510534628 0.014210s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:15:21.522773280 0.026449s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:15:21.528200769 0.031878s info: Automatically using cache size of 195 MB
+2020-01-23T02:15:21.529677300 0.033352s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:15:21.530294632 0.033970s notice: Listening for client driver connections on port 28015
+2020-01-23T02:15:21.530389755 0.034065s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:15:21.530400321 0.034075s notice: Listening on cluster addresses: 127.0.0.1, 192.168.16.2
+2020-01-23T02:15:21.530412171 0.034087s notice: Listening on driver addresses: 127.0.0.1, 192.168.16.2
+2020-01-23T02:15:21.530416645 0.034092s notice: Listening on http addresses: 127.0.0.1, 192.168.16.2
+2020-01-23T02:15:21.530420007 0.034095s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:15:29.283617215 7.808893s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:15:29.283702599 7.808978s notice: Shutting down client connections...
+2020-01-23T02:15:29.283721473 7.808997s notice: All client connections closed.
+2020-01-23T02:15:29.283723382 7.808999s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:15:29.283849698 7.809125s notice: Storage engine shut down.
+2020-01-23T02:15:32.796284785 0.010175s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:15:32.798604647 0.012494s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:15:32.798796434 0.012685s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:15:32.812383630 0.026272s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:15:32.819488751 0.033380s info: Automatically using cache size of 195 MB
+2020-01-23T02:15:32.820930282 0.034818s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:15:32.821813511 0.035702s notice: Listening for client driver connections on port 28015
+2020-01-23T02:15:32.821873760 0.035762s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:15:32.821877847 0.035766s notice: Listening on cluster addresses: 127.0.0.1, 192.168.32.2
+2020-01-23T02:15:32.821881015 0.035769s notice: Listening on driver addresses: 127.0.0.1, 192.168.32.2
+2020-01-23T02:15:32.821884626 0.035773s notice: Listening on http addresses: 127.0.0.1, 192.168.32.2
+2020-01-23T02:15:32.821888058 0.035776s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:15:36.377466906 3.591355s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:15:36.377567019 3.591455s notice: Shutting down client connections...
+2020-01-23T02:15:36.377587114 3.591475s notice: All client connections closed.
+2020-01-23T02:15:36.377589049 3.591477s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:15:36.377817708 3.591706s notice: Storage engine shut down.
+2020-01-23T02:15:40.766876435 0.009829s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:15:40.769490925 0.012442s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:15:40.769753130 0.012703s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:15:40.781492049 0.024442s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:15:40.788523451 0.031475s info: Automatically using cache size of 195 MB
+2020-01-23T02:15:40.789473613 0.032424s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:15:40.790206657 0.033157s notice: Listening for client driver connections on port 28015
+2020-01-23T02:15:40.790291288 0.033242s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:15:40.790301026 0.033251s notice: Listening on cluster addresses: 127.0.0.1, 192.168.48.2
+2020-01-23T02:15:40.790307170 0.033257s notice: Listening on driver addresses: 127.0.0.1, 192.168.48.2
+2020-01-23T02:15:40.790312311 0.033262s notice: Listening on http addresses: 127.0.0.1, 192.168.48.2
+2020-01-23T02:15:40.790316961 0.033267s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:16:22.764953554 0.011168s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:16:22.768031583 0.014245s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:16:22.768278268 0.014490s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:16:22.779733634 0.025946s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:16:22.786972216 0.033186s info: Automatically using cache size of 196 MB
+2020-01-23T02:16:22.788015900 0.034228s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:16:22.789806121 0.036018s notice: Listening for client driver connections on port 28015
+2020-01-23T02:16:22.790056102 0.036268s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:16:22.790060499 0.036272s notice: Listening on cluster addresses: 127.0.0.1, 192.168.80.2
+2020-01-23T02:16:22.790064545 0.036276s notice: Listening on driver addresses: 127.0.0.1, 192.168.80.2
+2020-01-23T02:16:22.790068900 0.036281s notice: Listening on http addresses: 127.0.0.1, 192.168.80.2
+2020-01-23T02:16:22.790073940 0.036286s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:16:28.145755426 5.413628s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:16:28.145841582 5.413714s notice: Shutting down client connections...
+2020-01-23T02:16:28.145859931 5.413732s notice: All client connections closed.
+2020-01-23T02:16:28.145861860 5.413734s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:16:28.145986796 5.413859s notice: Storage engine shut down.
+2020-01-23T02:19:54.620206940 0.021166s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:19:54.625272125 0.026232s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:19:54.627335156 0.028297s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:19:54.642301009 0.043257s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:19:54.652929063 0.053889s info: Automatically using cache size of 197 MB
+2020-01-23T02:19:54.654494922 0.055451s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:19:54.655670852 0.056627s notice: Listening for client driver connections on port 28015
+2020-01-23T02:19:54.655771985 0.056728s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:19:54.655777197 0.056733s notice: Listening on cluster addresses: 127.0.0.1, 192.168.96.2
+2020-01-23T02:19:54.655781272 0.056737s notice: Listening on driver addresses: 127.0.0.1, 192.168.96.2
+2020-01-23T02:19:54.655785493 0.056741s notice: Listening on http addresses: 127.0.0.1, 192.168.96.2
+2020-01-23T02:19:54.655789766 0.056745s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:20:09.693643518 15.116246s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:20:09.693722170 15.116324s notice: Shutting down client connections...
+2020-01-23T02:20:09.693787492 15.116390s notice: All client connections closed.
+2020-01-23T02:20:09.693789508 15.116391s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:20:09.694030819 15.116633s notice: Storage engine shut down.
+2020-01-23T02:20:12.297896571 0.013589s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:20:12.300949053 0.016641s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:20:12.301217139 0.016907s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:20:12.308320891 0.024011s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:20:12.312206780 0.027898s info: Automatically using cache size of 196 MB
+2020-01-23T02:20:12.312961920 0.028652s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:20:12.313675493 0.029365s notice: Listening for client driver connections on port 28015
+2020-01-23T02:20:12.313793854 0.029484s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:20:12.313797939 0.029488s notice: Listening on cluster addresses: 127.0.0.1, 192.168.112.2
+2020-01-23T02:20:12.313801905 0.029492s notice: Listening on driver addresses: 127.0.0.1, 192.168.112.2
+2020-01-23T02:20:12.313805657 0.029496s notice: Listening on http addresses: 127.0.0.1, 192.168.112.2
+2020-01-23T02:20:12.313809198 0.029499s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:20:12.537139586 0.252830s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:20:12.537231051 0.252921s notice: Shutting down client connections...
+2020-01-23T02:20:12.537251832 0.252942s notice: All client connections closed.
+2020-01-23T02:20:12.537253738 0.252944s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:20:12.537440194 0.253130s notice: Storage engine shut down.
+2020-01-23T02:20:18.983741506 0.012134s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:20:18.986378487 0.014770s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:20:18.986665552 0.015056s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:20:19.002123752 0.030514s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:20:19.010003562 0.038396s info: Automatically using cache size of 196 MB
+2020-01-23T02:20:19.011054348 0.039444s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:20:19.012066140 0.040456s notice: Listening for client driver connections on port 28015
+2020-01-23T02:20:19.012185011 0.040575s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:20:19.012192415 0.040582s notice: Listening on cluster addresses: 127.0.0.1, 192.168.128.2
+2020-01-23T02:20:19.012199048 0.040589s notice: Listening on driver addresses: 127.0.0.1, 192.168.128.2
+2020-01-23T02:20:19.012206025 0.040596s notice: Listening on http addresses: 127.0.0.1, 192.168.128.2
+2020-01-23T02:20:19.012212172 0.040602s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:20:25.190653086 6.219043s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:20:25.190750347 6.219140s notice: Shutting down client connections...
+2020-01-23T02:20:25.190770518 6.219160s notice: All client connections closed.
+2020-01-23T02:20:25.190772441 6.219162s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:20:25.190986297 6.219376s notice: Storage engine shut down.
+2020-01-23T02:20:37.908657013 0.009388s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:20:37.912614101 0.013344s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:20:37.912830358 0.013559s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:20:37.925408050 0.026136s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:20:37.931862418 0.032593s info: Automatically using cache size of 196 MB
+2020-01-23T02:20:37.934336432 0.035065s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:20:37.935034148 0.035763s notice: Listening for client driver connections on port 28015
+2020-01-23T02:20:37.935097574 0.035826s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:20:37.935101367 0.035830s notice: Listening on cluster addresses: 127.0.0.1, 192.168.144.2
+2020-01-23T02:20:37.935104769 0.035833s notice: Listening on driver addresses: 127.0.0.1, 192.168.144.2
+2020-01-23T02:20:37.935108043 0.035836s notice: Listening on http addresses: 127.0.0.1, 192.168.144.2
+2020-01-23T02:20:37.935111172 0.035839s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:23:13.671512682 155.880472s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:23:13.671661541 155.880621s notice: Shutting down client connections...
+2020-01-23T02:23:13.671780934 155.880740s notice: All client connections closed.
+2020-01-23T02:23:13.671784485 155.880744s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:23:13.672023877 155.880983s notice: Storage engine shut down.
+2020-01-23T02:23:18.488180973 0.008708s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:23:18.495375265 0.015902s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:23:18.495657795 0.016183s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:23:18.510797596 0.031323s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:23:18.517726992 0.038255s info: Automatically using cache size of 195 MB
+2020-01-23T02:23:18.519293863 0.039819s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:23:18.520095542 0.040621s notice: Listening for client driver connections on port 28015
+2020-01-23T02:23:18.520157232 0.040682s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:23:18.520162320 0.040687s notice: Listening on cluster addresses: 127.0.0.1, 192.168.160.2
+2020-01-23T02:23:18.520165671 0.040691s notice: Listening on driver addresses: 127.0.0.1, 192.168.160.2
+2020-01-23T02:23:18.520168933 0.040694s notice: Listening on http addresses: 127.0.0.1, 192.168.160.2
+2020-01-23T02:23:18.520178686 0.040704s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:23:22.196920530 3.717446s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:23:22.197006063 3.717531s notice: Shutting down client connections...
+2020-01-23T02:23:22.197079781 3.717605s notice: All client connections closed.
+2020-01-23T02:23:22.197081856 3.717607s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:23:22.197296584 3.717822s notice: Storage engine shut down.
+2020-01-23T02:24:58.016249234 0.009944s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:24:58.018777154 0.012471s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:24:58.018991121 0.012683s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:24:58.031641630 0.025334s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:24:58.037865220 0.031560s info: Automatically using cache size of 181 MB
+2020-01-23T02:24:58.040684415 0.034377s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:24:58.041409477 0.035102s notice: Listening for client driver connections on port 28015
+2020-01-23T02:24:58.041496378 0.035188s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:24:58.041500077 0.035192s notice: Listening on cluster addresses: 127.0.0.1, 192.168.176.2
+2020-01-23T02:24:58.041503446 0.035196s notice: Listening on driver addresses: 127.0.0.1, 192.168.176.2
+2020-01-23T02:24:58.041506974 0.035199s notice: Listening on http addresses: 127.0.0.1, 192.168.176.2
+2020-01-23T02:24:58.041547258 0.035239s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:25:04.410867234 6.404560s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:25:04.410971753 6.404664s notice: Shutting down client connections...
+2020-01-23T02:25:04.410991225 6.404683s notice: All client connections closed.
+2020-01-23T02:25:04.410993199 6.404685s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:25:04.411210688 6.404903s notice: Storage engine shut down.
+2020-01-23T02:27:46.196195374 0.010714s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:27:46.199542988 0.014061s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:27:46.199815546 0.014332s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:27:46.213322702 0.027839s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:27:46.219192144 0.033710s info: Automatically using cache size of 182 MB
+2020-01-23T02:27:46.220701789 0.035218s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:27:46.221378234 0.035894s notice: Listening for client driver connections on port 28015
+2020-01-23T02:27:46.221439643 0.035956s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:27:46.221443406 0.035959s notice: Listening on cluster addresses: 127.0.0.1, 192.168.192.2
+2020-01-23T02:27:46.221446731 0.035963s notice: Listening on driver addresses: 127.0.0.1, 192.168.192.2
+2020-01-23T02:27:46.221450080 0.035966s notice: Listening on http addresses: 127.0.0.1, 192.168.192.2
+2020-01-23T02:27:46.221453618 0.035970s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:27:50.490792721 4.305309s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:27:50.490868546 4.305385s notice: Shutting down client connections...
+2020-01-23T02:27:50.490886831 4.305403s notice: All client connections closed.
+2020-01-23T02:27:50.490888768 4.305405s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:27:50.491024182 4.305540s notice: Storage engine shut down.
+2020-01-23T02:29:12.869430064 0.010538s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:29:12.872996152 0.014103s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:29:12.873267978 0.014373s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:29:12.884956700 0.026062s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:29:12.891520804 0.032629s info: Automatically using cache size of 173 MB
+2020-01-23T02:29:12.894495514 0.035601s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:29:12.895521165 0.036626s notice: Listening for client driver connections on port 28015
+2020-01-23T02:29:12.895706628 0.036812s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:29:12.895711694 0.036817s notice: Listening on cluster addresses: 127.0.0.1, 192.168.208.2
+2020-01-23T02:29:12.895716589 0.036822s notice: Listening on driver addresses: 127.0.0.1, 192.168.208.2
+2020-01-23T02:29:12.895723913 0.036829s notice: Listening on http addresses: 127.0.0.1, 192.168.208.2
+2020-01-23T02:29:12.895728853 0.036834s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:29:24.294637743 11.435743s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:29:24.294720362 11.435825s notice: Shutting down client connections...
+2020-01-23T02:29:24.294811030 11.435916s notice: All client connections closed.
+2020-01-23T02:29:24.294813250 11.435918s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:29:24.295036901 11.436142s notice: Storage engine shut down.
+2020-01-23T02:29:31.449095063 0.008200s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:29:31.452126429 0.011231s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:29:31.452344990 0.011448s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:29:31.464910125 0.024013s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:29:31.471510952 0.030616s info: Automatically using cache size of 172 MB
+2020-01-23T02:29:31.472646817 0.031750s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:29:31.475111591 0.034215s notice: Listening for client driver connections on port 28015
+2020-01-23T02:29:31.475193590 0.034296s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:29:31.475198910 0.034302s notice: Listening on cluster addresses: 127.0.0.1, 192.168.224.2
+2020-01-23T02:29:31.475203429 0.034306s notice: Listening on driver addresses: 127.0.0.1, 192.168.224.2
+2020-01-23T02:29:31.475208039 0.034311s notice: Listening on http addresses: 127.0.0.1, 192.168.224.2
+2020-01-23T02:29:31.475212767 0.034316s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:29:37.783090121 6.342193s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:29:37.783168103 6.342271s notice: Shutting down client connections...
+2020-01-23T02:29:37.783185943 6.342289s notice: All client connections closed.
+2020-01-23T02:29:37.783187891 6.342291s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:29:37.783316989 6.342420s notice: Storage engine shut down.
+2020-01-23T02:30:04.693069753 0.011548s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:30:04.695514760 0.013992s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:30:04.695754897 0.014231s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:30:04.709882073 0.028358s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:30:04.715810692 0.034289s info: Automatically using cache size of 172 MB
+2020-01-23T02:30:04.717895003 0.036371s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:30:04.719069877 0.037546s notice: Listening for client driver connections on port 28015
+2020-01-23T02:30:04.719352427 0.037829s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:30:04.719378786 0.037855s notice: Listening on cluster addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:30:04.719415328 0.037891s notice: Listening on driver addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:30:04.719420585 0.037897s notice: Listening on http addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:30:04.719424043 0.037900s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T02:32:50.051891601 165.478559s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T02:32:50.052011020 165.478678s notice: Shutting down client connections...
+2020-01-23T02:32:50.052080091 165.478747s notice: All client connections closed.
+2020-01-23T02:32:50.052082236 165.478749s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T02:32:50.052339910 165.479007s notice: Storage engine shut down.
+2020-01-23T02:33:01.170063483 0.008534s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T02:33:01.173519910 0.011990s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T02:33:01.173724496 0.012193s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T02:33:01.187667933 0.026137s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T02:33:01.192591917 0.031062s info: Automatically using cache size of 172 MB
+2020-01-23T02:33:01.194472485 0.032941s notice: Listening for intracluster connections on port 29015
+2020-01-23T02:33:01.195838918 0.034307s notice: Listening for client driver connections on port 28015
+2020-01-23T02:33:01.195903291 0.034372s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T02:33:01.195945740 0.034414s notice: Listening on cluster addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:33:01.195953209 0.034422s notice: Listening on driver addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:33:01.195956690 0.034425s notice: Listening on http addresses: 127.0.0.1, 192.168.240.2
+2020-01-23T02:33:01.195959878 0.034429s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T13:47:31.061780430 0.009476s notice: Running rethinkdb 2.4.0~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-23T13:47:31.071590299 0.019284s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-23T13:47:31.072219299 0.019911s notice: Loading data from directory /data/rethinkdb_data
+2020-01-23T13:47:31.089368880 0.037060s notice: Ignoring --initial-password option because the admin password is already configured.
+2020-01-23T13:47:31.095512456 0.043206s info: Automatically using cache size of 173 MB
+2020-01-23T13:47:31.096498271 0.044190s notice: Listening for intracluster connections on port 29015
+2020-01-23T13:47:31.097244903 0.044936s notice: Listening for client driver connections on port 28015
+2020-01-23T13:47:31.097308772 0.045000s notice: Listening for administrative HTTP connections on port 8080
+2020-01-23T13:47:31.097312449 0.045004s notice: Listening on cluster addresses: 127.0.0.1, 172.18.0.2
+2020-01-23T13:47:31.097315856 0.045007s notice: Listening on driver addresses: 127.0.0.1, 172.18.0.2
+2020-01-23T13:47:31.097319182 0.045010s notice: Listening on http addresses: 127.0.0.1, 172.18.0.2
+2020-01-23T13:47:31.097322433 0.045014s notice: Server ready, "26e913a32d1b_tiw" c24e2d11-6d2c-4800-aa5e-dc8afbbdf320
+2020-01-23T14:57:33.483438195 4205.476980s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-23T14:57:33.483508053 4205.477050s notice: Shutting down client connections...
+2020-01-23T14:57:33.483628761 4205.477170s notice: All client connections closed.
+2020-01-23T14:57:33.483630899 4205.477173s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-23T14:57:33.483975535 4205.477517s notice: Storage engine shut down.

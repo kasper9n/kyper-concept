@@ -1,0 +1,28 @@
+version: "3.3"
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: npm run ${APP_ENV}
+    env_file: secrets.env
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - rethinkdb
+    restart: always
+    volumes:
+      - ./api:/usr/src/app
+  rethinkdb:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    env_file: secrets.env
+    ports:
+      - 28015:28015 # client driver
+      # - 29015:29015 # intracluster
+      - 8080:8080 # web ui
+    restart: always
+    volumes:
+      - ./db/data:/data
