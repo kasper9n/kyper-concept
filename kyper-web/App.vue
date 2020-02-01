@@ -1,29 +1,42 @@
 <template lang="pug">
   #app
-    #nav
-      router-link(to="/") Home
-      |
-      | |
-      |
-      router-link(to="/about") About
-    router-view
+    Nav
+    transition(name='fade' mode='out-in')
+      router-view
 </template>
+
+<script>
+import Nav from '@/components/Nav.vue'
+
+export default {
+  name: 'home',
+  components: {
+    Nav,
+  },
+}
+</script>
 
 <style lang='sass'>
 #app
-  font-family: 'Avenir', Helvetica, Arial, sans-serif
+  font-family: 'Lato', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  text-align: center
   color: #2c3e50
+  padding: 0px 30px
+  color: #2c3e50
+a
+  color: #2c3e50
+  text-decoration: none
+p
+  margin: 0px
 
-#nav
-  padding: 30px
+.fade-enter-active, .fade-leave-active
+  transition: all 0.1s ease-in-out
+  transform: translateY(0px)
+  opacity: 1
 
-  a
-    font-weight: bold
-    color: #2c3e50
+.fade-enter, .fade-leave-to
+  transform: translateY(5px)
+  opacity: 0
 
-    &.router-link-exact-active
-      color: #42b983
 </style>
