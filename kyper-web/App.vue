@@ -17,15 +17,19 @@ export default {
 </script>
 
 <style lang='sass'>
+body
+  margin: 0px
 #app
   font-family: 'Lato', Helvetica, Arial, sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+  // background-color: #26344E
+  // background-color: #2c3e50
+  background-color: #ffffff
+#app, a
   color: #2c3e50
-  padding: 0px 30px
-  color: #2c3e50
+  // color: #ffffff
 a
-  color: #2c3e50
   text-decoration: none
 p
   margin: 0px

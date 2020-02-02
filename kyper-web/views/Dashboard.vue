@@ -1,11 +1,11 @@
 <template lang='pug'>
-  .login
-    h1 Log in
-    //- h1 Logged in? {{ loggedIn }}
-    //- h1 email {{ email }}
-    //- h1 firstName {{ firstName }}
-    //- h1 lastName {{ lastName }}
-    button(@click='login("/app")') Log in
+  .dashboard
+    p Logged in? {{ loggedIn }}
+    p email {{ email }}
+    p firstName {{ firstName }}
+    p lastName {{ lastName }}
+    button(@click='login()') Log in
+    button(@click='logout()') Log out
 </template>
 
 <script>
