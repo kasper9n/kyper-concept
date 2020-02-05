@@ -1,7 +1,7 @@
 <template lang='pug'>
   .nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
     router-link.item.home(to='/app')
-      h3 Kyper dash
+      h3 Kyper
     .item(@click='logout()')
       h4 Log out
   .nav.logged-out(v-else)
@@ -41,7 +41,8 @@ export default {
   .item
     cursor: pointer
     margin: 0px 10px
-    transition: all 0.15s var(--easing)
+    transition: 0.15s var(--easing)
+    transition-property: opacity, color
     text-decoration: none
     padding: 2px
     h2, h3, h4

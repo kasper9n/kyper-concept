@@ -2,8 +2,14 @@
 :root
   --background-color: #f8f9fc
   --background-color-2: #FFFFFF
+
   --text-color: #444444
+  --button-text-color: #ffffff
+
   --accent-color: #1486ff
+
+  --button-color: rgba(20, 134, 255, 0.9)
+
   --line-color: #d5d6d7
   --line-hover-color: #b9babc
   --line-highlight-color: rgba(20, 134, 255, 0.5)

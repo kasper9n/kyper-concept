@@ -23,8 +23,6 @@ input
   font-size: inherit
   color: inherit
   font-weight: inherit
-  background-color: transparent
-  border: 1px solid transparent
   border-radius: 3px
   border-width: 1px
   border-style: solid
