@@ -1,9 +1,11 @@
 # Kyper Web
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f49dbb7-a969-49dc-a7ef-561829482ce9/deploy-status)](https://app.netlify.com/sites/stoic-khorana-8c1729/deploys)
+
 # Dev instructions
 
 ### Getting started
-1. Install [Node](https://nodejs.org) (I use [fnm](https://github.com/Schniz/fnm) to manage multiple Node versions)
+1. Install [Node](https://nodejs.org) 12 (I use [fnm](https://github.com/Schniz/fnm) to manage multiple Node versions)
 2. Run `npm install` to install dependencies
 3. To inspect/debug, installing the [Vue Devtools](https://github.com/vuejs/vue-devtools#vue-devtools) is recommended.
 
