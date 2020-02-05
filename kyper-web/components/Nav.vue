@@ -1,17 +1,16 @@
 <template lang='pug'>
-  div
-    .nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
-      router-link.home(to='/')
-        p Kyper
-      router-link.home(to='/app')
-        p Kyper dash
-      .clickable(@click='logout()')
-        p Log out
-    .nav.logged-out(v-else)
-      router-link.home(to='/')
-        p Kyper
-      router-link(to='/login')
-        p Log in
+  .nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
+    router-link.item.home(to='/app')
+      h3 Kyper dash
+    .item(@click='logout()')
+      h4 Log out
+  .nav.logged-out(v-else)
+    router-link.item.home(to='/')
+      h2 Kyper
+    router-link.item(to='/register')
+      h4 Apply
+    router-link.item(to='/login')
+      h4 Log in
 </template>
 
 <script>
@@ -20,22 +19,38 @@ import { mapActions } from 'vuex'
 export default {
   methods: {
     ...mapActions('account', [ 'logout' ]),
+    loginPage () {
+      return this.$router.currentRoute.path === '/login'
+    },
+  },
+  computed: {
   },
 }
 </script>
 
 <style lang='sass' scoped>
 .nav
+  background-color: var(--background-color-2)
+  box-shadow: var(--shadow)
   display: flex
   align-items: center
-  font-weight: 700
-  padding: 10px 30px
-  .home
-    font-size: 26px
-    margin-right: auto
-  .clickable
+  font-weight: 600
+  height: 60px
+  padding: 0px 30px
+  white-space: nowrap
+  .item
     cursor: pointer
+    margin: 0px 10px
+    transition: all 0.15s var(--easing)
+    text-decoration: none
+    padding: 2px
+    h2, h3, h4
+      margin: 0px
+    &:hover
+      opacity: 0.75
+  .home
+    margin-right: auto
 
 .router-link-exact-active
-  color: #1ac781
+  color: var(--accent-color)
 </style>

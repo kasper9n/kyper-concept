@@ -7,11 +7,13 @@
 
 <script>
 import Nav from '@/components/Nav.vue'
+import Theme from '@/components/Theme.vue'
 
 export default {
   name: 'home',
   components: {
     Nav,
+    Theme,
   },
 }
 </script>
@@ -20,19 +22,32 @@ export default {
 body
   margin: 0px
 #app
-  font-family: 'Lato', Helvetica, Arial, sans-serif
+  font-family: 'Muli', Helvetica, Arial, sans-serif
+  font-weight: 600
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  // background-color: #26344E
-  // background-color: #2c3e50
-  background-color: #ffffff
+  background-color: var(--background-color)
+  min-height: 100vh
+  width: 100vw
+  min-width: 250px
+:focus
+  outline-color: var(--line-highlight-color)
+  outline-width: 3px
 #app, a
-  color: #2c3e50
-  // color: #ffffff
-a
+  color: var(--text-color)
+#app
+  font-size: 15px
+div
+  box-sizing: border-box
+a:hover
   text-decoration: none
 p
-  margin: 0px
+  margin: 10px 0px
+h1, h2, h3, h4, h5, h6
+  font-family: 'Poppins', Helvetica, Arial, sans-serif
+  font-weight: 600
+input
+  outline: none
 
 .fade-enter-active, .fade-leave-active
   transition: all 0.1s ease-in-out
