@@ -5,7 +5,7 @@
 # Dev instructions
 
 ### Getting started
-1. Install [Node](https://nodejs.org) 12 (I use [fnm](https://github.com/Schniz/fnm) to manage multiple Node versions)
+1. Install [Node](https://nodejs.org) 12.14.1 or later (I use [fnm](https://github.com/Schniz/fnm) to manage multiple Node versions)
 2. Run `npm install` to install dependencies
 3. To inspect/debug, installing the [Vue Devtools](https://github.com/vuejs/vue-devtools#vue-devtools) is recommended.
 
