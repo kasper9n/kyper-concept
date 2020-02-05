@@ -1,5 +1,5 @@
 <template lang='pug'>
-  button(:type='type' :primary='primary')
+  button(:type='type' :primary='primary' @click='$emit("click")')
     span(tabindex='-1')
       slot
 </template>
