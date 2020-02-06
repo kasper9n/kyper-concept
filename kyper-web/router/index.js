@@ -20,13 +20,11 @@ const routes = [
   {
     path: '/app',
     component: Dashboard,
-    children: [
-      {
-        path: 'releases',
-        component: Releases,
-        meta: { title: 'Releases - Kyper' },
-      },
-    ],
+  },
+  {
+    path: '/app/releases',
+    component: Releases,
+    meta: { title: 'Releases - Kyper' },
   },
 ]
 
