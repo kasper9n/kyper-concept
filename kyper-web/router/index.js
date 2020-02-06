@@ -10,22 +10,18 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
     component: Home,
+    meta: { title: 'Kyper' },
   },
   {
     path: '/login',
-    name: 'login',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
     component: Login,
+    meta: { title: 'Login - Kyper' },
   },
   {
     path: '/app',
-    name: 'dashboard',
     component: Dashboard,
+    meta: { title: 'Dashboard - Kyper' },
   },
 ]
 
@@ -36,6 +32,8 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  document.title = to.meta.title
+
   if (to.path.startsWith('/app') && store.state.account.loggedIn) {
     if (store.state.account.loggedIn) {
       store.commit('appArea', true)
