@@ -1,12 +1,16 @@
 <template lang='pug'>
   .nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
-    router-link.item.home(to='/app')
-      h3 Kyper
+    router-link.item(to='/app')
+      h2 Kyper
+    router-link.item(to='/app/releases')
+      h4 Releases
+    .separator
     .item(@click='logout()')
       h4 Log out
   .nav.logged-out(v-else)
-    router-link.item.home(to='/')
+    router-link.item(to='/')
       h2 Kyper
+    .separator
     router-link.item(to='/register')
       h4 Apply
     router-link.item(to='/login')
@@ -22,8 +26,6 @@ export default {
     loginPage () {
       return this.$router.currentRoute.path === '/login'
     },
-  },
-  computed: {
   },
 }
 </script>
@@ -49,7 +51,7 @@ export default {
       margin: 0px
     &:hover
       opacity: 0.75
-  .home
+  .separator
     margin-right: auto
 
 .router-link-exact-active

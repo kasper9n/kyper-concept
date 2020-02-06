@@ -4,6 +4,7 @@ import store from '@/store/index.js'
 import Home from '@/views/Home.vue'
 import Login from '@/views/Login.vue'
 import Dashboard from '@/views/Dashboard.vue'
+import Releases from '@/views/Releases.vue'
 
 Vue.use(VueRouter)
 
@@ -22,6 +23,13 @@ const routes = [
     path: '/app',
     component: Dashboard,
     meta: { title: 'Dashboard - Kyper' },
+    children: [
+      {
+        path: 'releases',
+        component: Releases,
+        meta: { title: 'Releases - Kyper' },
+      },
+    ],
   },
 ]
 
