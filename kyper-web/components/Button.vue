@@ -1,7 +1,7 @@
 <template lang='pug'>
-  button(:type='type' :primary='primary' @click='$emit("click")')
-    span(tabindex='-1')
-      slot
+button(:type='type' :primary='primary' @click='$emit("click")')
+  span(tabindex='-1')
+    slot
 </template>
 
 <script>

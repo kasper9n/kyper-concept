@@ -1,11 +1,11 @@
 <template lang='pug'>
-  .dashboard
-    p Logged in? {{ loggedIn }}
-    p email {{ email }}
-    p firstName {{ firstName }}
-    p lastName {{ lastName }}
-    button(@click='login()') Log in
-    button(@click='logout()') Log out
+.dashboard(v-title='"Dashboard - Kyper"')
+  p Logged in? {{ loggedIn }}
+  p email {{ email }}
+  p firstName {{ firstName }}
+  p lastName {{ lastName }}
+  button(@click='login()') Log in
+  button(@click='logout()') Log out
 </template>
 
 <script>

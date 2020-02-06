@@ -12,17 +12,14 @@ const routes = [
   {
     path: '/',
     component: Home,
-    meta: { title: 'Kyper' },
   },
   {
     path: '/login',
     component: Login,
-    meta: { title: 'Login - Kyper' },
   },
   {
     path: '/app',
     component: Dashboard,
-    meta: { title: 'Dashboard - Kyper' },
     children: [
       {
         path: 'releases',

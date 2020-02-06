@@ -1,12 +1,12 @@
 <template lang='pug'>
-  .login
-    h1 Log in
-    TextBox.textbox(name='email' placeholder='Email' type='text')
-    TextBox.textbox(name='password' placeholder='Password' type='password')
-    .row
-      router-link(to='/reset-password') Forgot password?
-      //- Button.btn(@click='login("/app")') Forgot password?
-      Button.btn(@click='login("/app")') Log in
+.login(v-title='"Login - Kyper"')
+  h1 Log in
+  TextBox.textbox(name='email' placeholder='Email' type='text')
+  TextBox.textbox(name='password' placeholder='Password' type='password')
+  .row
+    router-link(to='/reset-password') Forgot password?
+    //- Button.btn(@click='login("/app")') Forgot password?
+    Button.btn(@click='login("/app")') Log in
 </template>
 
 <script>

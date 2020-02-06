@@ -1,5 +1,5 @@
 <template lang='pug'>
-  input(:name='name' :placeholder='placeholder' :type='type')
+input(:name='name' :placeholder='placeholder' :type='type')
 </template>
 
 <script>

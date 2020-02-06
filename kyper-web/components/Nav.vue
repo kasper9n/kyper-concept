@@ -1,20 +1,20 @@
 <template lang='pug'>
-  .nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
-    router-link.item(to='/app')
-      h2 Kyper
-    router-link.item(to='/app/releases')
-      h4 Releases
-    .separator
-    .item(@click='logout()')
-      h4 Log out
-  .nav.logged-out(v-else)
-    router-link.item(to='/')
-      h2 Kyper
-    .separator
-    router-link.item(to='/register')
-      h4 Apply
-    router-link.item(to='/login')
-      h4 Log in
+.nav.logged-in(v-if='$store.state.appArea && $store.state.account.loggedIn')
+  router-link.item(to='/app')
+    h2 Kyper
+  router-link.item(to='/app/releases')
+    h4 Releases
+  .separator
+  .item(@click='logout()')
+    h4 Log out
+.nav.logged-out(v-else)
+  router-link.item(to='/')
+    h2 Kyper
+  .separator
+  router-link.item(to='/register')
+    h4 Apply
+  router-link.item(to='/login')
+    h4 Log in
 </template>
 
 <script>
