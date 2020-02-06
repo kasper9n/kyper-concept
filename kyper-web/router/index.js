@@ -42,7 +42,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title
 
-  if (to.path.startsWith('/app') && store.state.account.loggedIn) {
+  if (to.path.startsWith('/app')) {
     if (store.state.account.loggedIn) {
       store.commit('appArea', true)
       next()
