@@ -26,7 +26,7 @@ body
   font-weight: 600
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  background-color: var(--background-color)
+  background-color: var(--background-color-2)
   min-height: 100vh
   width: 100vw
   min-width: 250px
@@ -48,6 +48,11 @@ h1, h2, h3, h4, h5, h6
   font-weight: 600
 input
   outline: none
+
+.page
+  max-width: 1150px
+  margin: auto
+  min-height: calc(100vh - var(--header-height))
 
 .fade-enter-active, .fade-leave-active
   transition: all 0.1s ease-in-out

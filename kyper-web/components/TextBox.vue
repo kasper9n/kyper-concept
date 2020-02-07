@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style lang='sass'>
+<style lang='sass' scoped>
 input
   margin: 10px 0px
   display: block
@@ -27,7 +27,7 @@ input
   border-width: 1px
   border-style: solid
   border-color: var(--line-color)
-  background-color: var(--background-color-2)
+  background-color: var(--background-color-1)
   transition: all 0.15s
   &:focus, &:active
     border-color: var(--line-highlight-color)

@@ -32,12 +32,12 @@ export default {
 
 <style lang='sass' scoped>
 .nav
-  background-color: var(--background-color-2)
+  background-color: var(--background-color-1)
   box-shadow: var(--shadow)
   display: flex
   align-items: center
   font-weight: 600
-  height: 60px
+  height: var(--header-height)
   padding: 0px 30px
   white-space: nowrap
   .item

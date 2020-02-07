@@ -1,5 +1,5 @@
 <template lang='pug'>
-.login(v-title='"Login - Kyper"')
+.login.page(v-title='"Login - Kyper"')
   h1 Log in
   TextBox.textbox(name='email' placeholder='Email' type='text')
   TextBox.textbox(name='password' placeholder='Password' type='password')
@@ -28,10 +28,8 @@ export default {
 
 <style lang='sass' scoped>
 .login
-  width: 100%
+  padding: 30px
   max-width: 390px
-  padding: 20px
-  margin: auto
   text-align: center
   .textbox
     width: 100%
