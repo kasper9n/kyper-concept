@@ -6,7 +6,7 @@
   .row
     router-link(to='/reset-password') Forgot password?
     //- Button.btn(@click='login("/app")') Forgot password?
-    Button.btn(@click='login("/app")') Log in
+    Button.btn(@click='login($route.query.continue || "/app")') Log in
 </template>
 
 <script>

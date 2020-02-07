@@ -42,7 +42,7 @@ router.beforeEach((to, from, next) => {
       store.commit('appArea', true)
       next()
     } else {
-      next('/login')
+      next({ path: '/login', query: { continue: to.path } })
     }
   } else {
     store.commit('appArea', false)
