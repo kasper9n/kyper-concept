@@ -1,5 +1,5 @@
 <template lang='pug'>
-.Home(v-title='"Kyper"')
+.home(v-title='"Kyper"')
   img(alt='Vue logo' src='../assets/logo.png')
   HelloWorld(msg='Welcome to Your Vue.js App')
 </template>

@@ -25,7 +25,6 @@ const routes = [
   {
     path: '/app/releases',
     component: Releases,
-    meta: { title: 'Releases - Kyper' },
   },
   {
     path: '*',
@@ -40,14 +39,12 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title
-
   if (to.path.startsWith('/app')) {
     if (store.state.account.loggedIn) {
       store.commit('appArea', true)
       next()
     } else {
-      next({ path: '/login', query: { continue: to.path } })
+      next({ path: '/login', replace: true, query: { continue: to.path } })
     }
   } else {
     store.commit('appArea', false)

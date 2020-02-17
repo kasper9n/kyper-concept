@@ -1,13 +1,11 @@
 <template lang='pug'>
-.releases
+.releases(v-title='"Releases - Kyper"')
   Sidebar.sidebar
   .list.page
     .header
       h1 Releases
       router-link(to='/app/releases/new')
         Button New Release
-    //- .new-release
-    //-   p New Release
     ReleaseListItem.release-item(
       title='Down'
       releaseDate='Feb 14, 2020'
