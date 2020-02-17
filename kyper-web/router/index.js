@@ -4,7 +4,8 @@ import store from '@/store/index.js'
 import Home from '@/views/Home.vue'
 import Login from '@/views/Login.vue'
 import Dashboard from '@/views/Dashboard.vue'
-import Releases from '@/views/Releases.vue'
+import Releases from '@/views/Catalog.vue'
+import PageNotFound from '@/views/404.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,10 @@ const routes = [
     path: '/app/releases',
     component: Releases,
     meta: { title: 'Releases - Kyper' },
+  },
+  {
+    path: '*',
+    component: PageNotFound,
   },
 ]
 

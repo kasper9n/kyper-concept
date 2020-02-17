@@ -4,7 +4,8 @@
   .list.page
     .header
       h1 Releases
-      Button New Release
+      router-link(to='/app/releases/new')
+        Button New Release
     //- .new-release
     //-   p New Release
     ReleaseListItem.release-item(
