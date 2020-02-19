@@ -11,7 +11,7 @@
 
 ### Commands
 
-Start with hot-reload in development mode:
+Start development mode with hot-reload:
 ```
 npm run start
 ```
@@ -28,7 +28,7 @@ npm run build
 
 Lint and fix files:
 ```
-npm run lint-fix
+npm run lint
 ```
 
 ### Customize configuration

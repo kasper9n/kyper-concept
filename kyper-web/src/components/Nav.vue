@@ -22,7 +22,7 @@ import { mapActions } from 'vuex'
 
 export default {
   methods: {
-    ...mapActions('account', [ 'logout' ]),
+    ...mapActions('account', ['logout']),
     loginPage () {
       return this.$router.currentRoute.path === '/login'
     },
