@@ -1,5 +1,5 @@
 <template lang='pug'>
-.releases(v-title='"Releases - Kyper"')
+.releases
   Sidebar.sidebar
   .list.page
     .header
@@ -49,6 +49,7 @@ import Sidebar from '@/components/Sidebar.vue'
 import Button from '@/components/Button.vue'
 
 export default {
+  title: 'Catalog',
   components: {
     Sidebar,
     ReleaseListItem,

@@ -6,6 +6,12 @@
       router-link(to='/') return home
 </template>
 
+<script>
+export default {
+  title: '404',
+}
+</script>
+
 <style lang='sass' scoped>
 .link
   display: flex

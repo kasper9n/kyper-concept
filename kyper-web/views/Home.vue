@@ -1,5 +1,5 @@
 <template lang='pug'>
-.home(v-title='"Kyper"')
+.home
   img(alt='Vue logo' src='../assets/logo.png')
   HelloWorld(msg='Welcome to Your Vue.js App')
 </template>
@@ -8,6 +8,7 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
+  fullTitle: 'Kyper',
   components: {
     HelloWorld,
   },

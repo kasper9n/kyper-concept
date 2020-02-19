@@ -5,9 +5,22 @@ import store from '@/store/index.js'
 
 Vue.config.productionTip = false
 
-Vue.directive('title', {
-  inserted: (el, binding) => { document.title = binding.value },
-  update: (el, binding) => { document.title = binding.value },
+const MetaPlugin = {
+  install (Vue, { titleTemplate }) {
+    if (!titleTemplate) titleTemplate = '%s'
+    Vue.mixin({
+      created () {
+        if (this.$options.fullTitle) {
+          document.title = this.$options.fullTitle
+        } else if (this.$options.title) {
+          document.title = titleTemplate.replace('%s', this.$options.title)
+        }
+      },
+    })
+  },
+}
+Vue.use(MetaPlugin, {
+  titleTemplate: '%s - Kyper',
 })
 
 new Vue({

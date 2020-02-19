@@ -1,5 +1,5 @@
 <template lang='pug'>
-.login.page(v-title='"Login - Kyper"')
+.login.page
   h1 Log in
   TextBox.textbox(name='email' placeholder='Email' type='text')
   TextBox.textbox(name='password' placeholder='Password' type='password')
@@ -15,6 +15,7 @@ import TextBox from '@/components/TextBox.vue'
 import Button from '@/components/Button.vue'
 
 export default {
+  title: 'Login',
   components: {
     TextBox,
     Button,

@@ -1,5 +1,5 @@
 <template lang='pug'>
-.dashboard(v-title='"Dashboard - Kyper"')
+.dashboard
   p Logged in? {{ loggedIn }}
   p email {{ email }}
   p firstName {{ firstName }}
@@ -12,6 +12,7 @@
 import { mapActions, mapState } from 'vuex'
 
 export default {
+  title: 'Dashboard',
   methods: {
     ...mapActions('account', [ 'login', 'logout' ]),
   },
