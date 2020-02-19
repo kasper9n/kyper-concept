@@ -44,8 +44,8 @@ a:hover
 p
   margin: 10px 0px
 h1, h2, h3, h4, h5, h6
-  font-family: 'Poppins', Helvetica, Arial, sans-serif
-  font-weight: 600
+  font-family: 'Rubik', Helvetica, Arial, sans-serif
+  font-weight: 500
 input
   outline: none
 

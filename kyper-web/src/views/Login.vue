@@ -21,9 +21,9 @@ export default {
     Button,
   },
   methods: {
-    ...mapActions('account', [ 'login', 'logout' ]),
+    ...mapActions('account', ['login', 'logout']),
   },
-  computed: mapState('account', [ 'loggedIn' ]),
+  computed: mapState('account', ['loggedIn']),
 }
 </script>
 

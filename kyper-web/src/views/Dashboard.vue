@@ -14,9 +14,9 @@ import { mapActions, mapState } from 'vuex'
 export default {
   title: 'Dashboard',
   methods: {
-    ...mapActions('account', [ 'login', 'logout' ]),
+    ...mapActions('account', ['login', 'logout']),
   },
-  computed: mapState('account', [ 'loggedIn', 'email', 'firstName', 'lastName' ]),
+  computed: mapState('account', ['loggedIn', 'email', 'firstName', 'lastName']),
 }
 </script>
 
