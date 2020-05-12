@@ -1,6 +1,6 @@
 # Kyper Web
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4f49dbb7-a969-49dc-a7ef-561829482ce9/deploy-status)](https://app.netlify.com/sites/stoic-khorana-8c1729/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f49dbb7-a969-49dc-a7ef-561829482ce9/deploy-status)](https://app.netlify.com/sites/kyper-web/deploys)
 
 # Dev instructions
 
